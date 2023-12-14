@@ -9,7 +9,7 @@ struct simp_st {
     int i;
     float f;
     char ch;
-};
+//}__attribute__((packed));
 
 struct student_st {
     int id;
@@ -39,9 +39,10 @@ int main() {
     };
     // struct student_st stu = {.math=98, .chinese=97};
 
-
+/**
     printf("%d %s %d-%d-%d %d %d\n",stu.id, stu.name, stu.birth.year, stu.birth.month, stu.birth.day, stu.math, stu.chinese);
     printf("%d %s %d-%d-%d %d %d\n",p->id,p->name, p->birth.year, p->birth.month, p->birth.day, p->math, p->chinese);
+*/
 
     p = &arr[0];
     for (i = 0; i < 2; i++,p++) {
