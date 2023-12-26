@@ -1,0 +1,38 @@
+                         linux_c系统开发学习笔记
+I/O ：input & output 是一切实现的基础
+      stdio标准IO sysio系统调用IO(文件IO)
+
+stdio: FILE类型贯穿始终
+
+fopen();
+fclose();
+
+fgetc();
+fputc();
+fgets();
+fputs();
+fread();
+fwrite();
+
+printf();
+fprintf();
+springf();
+snprintf();
+scanf();
+fscanf();
+sscanf();
+
+fseek();
+ftell();
+rewind();
+
+fseeko();
+ftello();
+
+fflush();
+
+getline();
+
+临时文件： 1、如何不冲突  2、 及时销毁
+tmpnam 要创建文件需要两步 不安全
+tmpfile  不需要名字 而且返回的是FILE 也就不会有冲突 一个文件如果没有一个硬连接指向它，而且打开文件计数又为0值，这个文件就释放了，要不要close都可以
