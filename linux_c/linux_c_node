@@ -131,8 +131,13 @@ telldir();
     getpwnam();
 
 2 /etc/group
+    getgrgid();
+    getgrgrnam();
 
 3 /etc/shadow
+    getspnam();
+    crypt();
+    getpass();
 
 三、进程环境
 
