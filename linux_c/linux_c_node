@@ -126,7 +126,13 @@ telldir();
 
 二、系统数据文件和信息
 
+1 /etc/passwd
+    getpwuid();
+    getpwnam();
 
+2 /etc/group
+
+3 /etc/shadow
 
 三、进程环境
 
