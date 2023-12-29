@@ -177,7 +177,17 @@ telldir();
     putenv();
 
 5 C程序的存储空间布局
+    pmap(1); 命令行指令
+
 6 库
+    动态库
+    静态库
+    手工装载库
+    dlopen();
+    dlclose();
+    dlerror();
+    dlsym();
+
 7 函数跳转
 8 资源的获取及控制
 
