@@ -189,7 +189,13 @@ telldir();
     dlsym();
 
 7 函数跳转
+    goto;
+    setjmp();
+    longjmp();
+
 8 资源的获取及控制
+    getrlimit();
+    setrlimit();
 
 
 
