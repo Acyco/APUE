@@ -167,6 +167,9 @@ telldir();
     atexit(); 钩子函数
 
 3 命令行参数的分析
+    getopt();
+    getopt_long();
+
 4 环境变量
 5 C程序的存储空间布局
 6 库
