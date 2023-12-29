@@ -139,6 +139,13 @@ telldir();
     crypt();
     getpass();
 
+4 时间戳：time_t   char *  struct tm
+    time();
+    gettime();
+    localtime();
+    mktime();
+    strftime();
+
 三、进程环境
 
 /*************************************************************************************/
