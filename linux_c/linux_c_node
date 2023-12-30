@@ -236,7 +236,17 @@ telldir();
     execvp();
     注意：fflush()
 
-5、用户权限及组权限
+5、用户权限及组权限(u+s,g+s)
+    getuid();
+    geteuid();
+    getgid();
+    getegid();
+    setuid();
+    setgid();
+    setreuid();
+    setregid();
+    seteuid();
+    setegid();
 
 6、观摩课：解释器文件
 
