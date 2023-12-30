@@ -228,8 +228,13 @@ telldir();
     wait3();
     wait4();
 
-
 4、exec函数族
+    execl();
+    execlp();
+    execle();
+    execv();
+    execvp();
+    注意：fflush()
 
 5、用户权限及组权限
 
