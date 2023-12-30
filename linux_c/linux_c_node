@@ -250,11 +250,14 @@ telldir();
 
 6、观摩课：解释器文件
 
-7、 system();
+7、system();
+    理解： fork+exec+wait封装
 
-8、 进程会计
+8、进程会计
+    acct();
 
 9、进程时间
+    times();
 
 10、守护进程
 
