@@ -264,5 +264,11 @@ telldir();
     终端
     setsid();
     getpgrp();
+    单实例守护进程： 锁文件 /var/run/name.pid
+    启动脚本文件：/etc/rc*....
 
 11、系统日志
+    syslogd服务
+    openlog();
+    syslog();
+    closelog();
