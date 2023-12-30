@@ -260,5 +260,9 @@ telldir();
     times();
 
 10、守护进程
+    会话session,标识sid
+    终端
+    setsid();
+    getpgrp();
 
 11、系统日志
