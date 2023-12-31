@@ -307,6 +307,8 @@ telldir();
     kill();
     raise();
     alarm();
+    setitimeer();
+ 例：使用单一计时器，构造一组函数，实现任意数量计时器
     pause();
     system();
     sleep();

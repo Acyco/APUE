@@ -55,8 +55,7 @@ int main(int argc, char **argv)
     while (1)
     {
        size =  mytbf_fetchtoken(tbf,BUFSIZE);
-        printf("%d",size);
-        return 1;
+
        if(size < 0)
        {
            fprintf(stderr, "mytbf_fetchtoken():%s\n", strerror(-size));
