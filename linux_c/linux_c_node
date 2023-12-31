@@ -300,8 +300,9 @@ telldir();
 5、信号的响应过程
     信号从收到到响应有一个不可避免的延迟
     思考： 如何忽略掉一个信号的？
-          标准信号为什么要丢失
-          标准信号的响应没有严格的顺序
+          标准信号为什么要丢失。
+          标准信号的响应没有严格的顺序。
+          不能从信号 处理函数中的随意往外跳。（sigsetjmp,siglongjmp)
 
 6、常用函数
     kill();
@@ -321,7 +322,18 @@ telldir();
     select();
 
 7、信号集
+    信号集类型：sigset_t
+    sigemptyset();
+    sigfullset();
+    sigfaddset();
+    sigdelset();
+    sigismember();
+
 8、信号屏蔽字/pending集处理
+   sigprocmake();
+   sigpending();
+
+
 9、扩展
     sigsuspend();
     sigaction();
