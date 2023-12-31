@@ -333,11 +333,10 @@ telldir();
    sigprocmake();
    sigpending();
 
-
 9、扩展
     sigsuspend();
     sigaction();
-    setitimer();
+
 10、实时信号
 
 二、线程
